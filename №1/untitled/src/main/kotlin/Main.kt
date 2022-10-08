@@ -53,12 +53,12 @@ fun main(args: Array<String>) {
     println(celcius)
     exercisesSolved += 1
     // задание 11
-    var position:Int=0
-    var row:Int=6
-    var colum:Int=7
-    position =row*colum
-    println(position)
-    exercisesSolved += 1
+    val pozicion: Int = 45
+    val row: Int = pozicion / 8
+    val cul: Int = pozicion % 8
+    println(pozicion)
+    println(row)
+    println(cul)
     // задание 12
     val degrees:Double=60.0
     val radians:Double=PI*degrees/180.0
@@ -73,9 +73,6 @@ fun main(args: Array<String>) {
     println(distance)
     exercisesSolved += 1
     println(exercisesSolved)
-
-
-
 }
 
 
